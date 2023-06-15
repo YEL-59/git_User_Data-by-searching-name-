@@ -2,31 +2,39 @@
 <html>
   <head>
     <title>Github User Search</title>
-    <link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/style.css">
+
+
+
   </head>
   <body>
-    <div class="home_div">
-      <h1>Github User Search</h1>
-      <input
-        type="text"
-        id="usernameInput"
-        class="username_input"
-        placeholder="Enter a username"
-      />
-      <button id="searchButton">Search</button>
-    </div>
+ 
+
+
+<div class="home_div">
+
+  <h1>Github User Search</h1>
+  <input type="text" id="usernameInput" class="username_input" placeholder="Enter a username" />
+  <button id="searchButton">Search</button>
+</div>
     <div id="results"></div>
 
-    <div class="card-container" id="user_card_info">
+
+    <div class="card-container " id="user_card_info">
       <span class="pro">PRO</span>
+      <img class="round" src="" id="user_img" alt="user" />
       <h3 id="user_name"></h3>
       <h6 id="user_location"></h6>
 
       <h6 id="user_company"></h6>
-      <p id="user_bio"><br /></p>
+      <p id="user_bio"> <br/> </p>
       <div class="buttons">
-        <button class="primary">Message</button>
-        <button class="primary ghost">Following</button>
+        <button class="primary">
+          Message
+        </button>
+        <button class="primary ghost">
+          Following
+        </button>
       </div>
       <div class="skills">
         <h6>Other Info</h6>
@@ -35,24 +43,21 @@
           <li>Front End Development</li>
           <li id="user_following"></li>
           <li id="user_repos"></li>
-
+         
           <li>JavaScript</li>
           <li>React</li>
           <li>Node</li>
         </ul>
 
-        <h6>
-          Joining Date:
-          <h6 id="joining_date"></h6>
-        </h6>
+        <h6>Joining Date: <h6 id="joining_date"></h6></h6>
 
-        <h6>
-          git_URL:
-          <h6 id="git_url"></h6>
-        </h6>
+        <h6>git_URL:<h6 id="git_url"></h6></h6>
       </div>
+     
     </div>
 
+ 
+    
     <footer>
       <p>
         <!-- Created with <i class="fa fa-heart"></i> by
@@ -65,5 +70,6 @@
     </footer>
 
     <script src="/script.js"></script>
+  
   </body>
 </html>
